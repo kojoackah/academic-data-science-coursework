@@ -8,6 +8,8 @@ This repository serves as a centralized portfolio for laboratory assignments, fo
 - **`time_series_trend_forecasting.ipynb`**: Implements dynamic time-series trend extraction and forecasting models over transactional log data. Utilizes `DeterministicProcess` to initialize deterministic time dummies, calculates rolling 365-day moving averages, and deploys Scikit-Learn `LinearRegression` frameworks to compute out-of-sample forward-looking trend projections.
 
 - **`nlp_text_preprocessing_classification_lab.ipynb`**: Implements a complete natural language processing text-sanitization and features preparation pipeline over text corpus structures. Demonstrates proficiency in string punctuation stripping, programmatic regex word tokenization, lambda-mapped stopword filtering routines, and dataset metadata auditing within Pandas.
+- **`google_scholar_literature_scraper.ipynb`**: Implements a robust web scraping and automated literature gathering pipeline targeting academic search indices. Features modular functions using `requests` and `BeautifulSoup` to parse nested DOM trees, extracts metadata fields (citations, authors, publication years), manages rate-limiting exceptions via sleep intervals, and compiles datasets into exportable data frames using Pandas.
+
 
 
 
