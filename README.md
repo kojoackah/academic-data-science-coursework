@@ -3,6 +3,9 @@
 This repository serves as a centralized portfolio for laboratory assignments, foundational programming scripts, and technical coursework completed during my professional development and academic training tracks.
 
 ## Repository Structure
+
+- **`supervised_ml_random_forest_classification_lab.ipynb`**: Deploys an ensemble machine learning classification pipeline over vectorized sparse data matrices. Implements Scikit-Learn `train_test_split` to build rigorous cross-validation datasets, fits a `RandomForestClassifier` architecture, and evaluates classification performance via out-of-sample precision and recall statistics to measure model optimization boundaries.
+
 - **`web_scraping_beautifulsoup_lab.ipynb`**: IBM Developer Skills Network lab covering programmatic data extraction out of nested HTML structures, tag tree navigation, and parsing web tables into structured Pandas DataFrames using `BeautifulSoup` and `requests`.
 
 - **`time_series_trend_forecasting.ipynb`**: Implements dynamic time-series trend extraction and forecasting models over transactional log data. Utilizes `DeterministicProcess` to initialize deterministic time dummies, calculates rolling 365-day moving averages, and deploys Scikit-Learn `LinearRegression` frameworks to compute out-of-sample forward-looking trend projections.
