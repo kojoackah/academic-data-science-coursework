@@ -7,6 +7,9 @@ This repository serves as a centralized portfolio for laboratory assignments, fo
 
 - **`time_series_trend_forecasting.ipynb`**: Implements dynamic time-series trend extraction and forecasting models over transactional log data. Utilizes `DeterministicProcess` to initialize deterministic time dummies, calculates rolling 365-day moving averages, and deploys Scikit-Learn `LinearRegression` frameworks to compute out-of-sample forward-looking trend projections.
 
+- **`nlp_text_preprocessing_classification_lab.ipynb`**: Implements a complete natural language processing text-sanitization and features preparation pipeline over text corpus structures. Demonstrates proficiency in string punctuation stripping, programmatic regex word tokenization, lambda-mapped stopword filtering routines, and dataset metadata auditing within Pandas.
+
+
 
 ## Core Technical Skills Demonstrated
 - **Deterministic Trend Engineering:** Utilized `DeterministicProcess` frameworks to programmatically build time-dependency dummies, handling intercept biases (`const`) and linear order slopes to capture structural, long-term secular trends in historical datasets.
